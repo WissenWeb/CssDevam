@@ -1,0 +1,101 @@
+﻿
+<style>
+
+  /*   // div'in içerisindeki p */
+   /*  div p {
+
+
+        color:red;
+        text-align:right;
+
+    } */
+    /* .borderdiv{
+
+        border:2px solid black;
+
+    } */
+   /*  // ol'un içerisindeki li */
+    ol li{
+
+       border:2px dotted olive;
+
+    }
+
+    /* // üst etiketi div olan tüm p etiketleri */
+    /* div>p{
+
+
+        background-color:aquamarine;
+    
+
+    } */
+    span .bclass{
+    
+        color:red;
+    }
+
+    span #bid{
+
+        color:gray;
+
+    }
+
+    /* // p ile aynı seviyede olan tüm div etiketleri */
+    div~p{
+    
+        background-color:deeppink;
+        width:200px;
+        height:200px;
+    
+    }
+/* 
+    // i'den sonra gelen strong + işareti sonra gelen anlamı taşımaktadır. */ 
+    i+strong{
+    
+     color:purple;
+        
+    }
+   /*  // inputtan sonra gelen class'ı classb olan b */
+    input+.classb{
+
+        border:1px solid purple;
+
+    }
+    
+</style>
+
+
+<div class="borderdiv">
+    <p>Div'in içerisindeki p</p>
+</div>
+
+<ol>
+   <li>Li1</li>
+    <li>Li2</li>
+    <li>Li3</li>
+    <li>Li4</li>
+    <li>Li5</li>
+
+</ol>
+
+
+<span>
+    <b id="bid">Id'li b</b><br />
+    <b class="bclass">Class'lı b</b><br />
+    <b>Class'sız b</b><br />
+</span>
+
+<div>p ile aynı seviyede olan div</div>
+<p>div ile aynı seviyede olan p ekiketi</p>
+
+
+<i>İ etiketi</i>
+<strong>strong etiketi</strong>
+<input  type="button" value="Hello"/>
+<b class="classb"> Inputtan sonra geliyorum...</b>
+
+
+
+
+
+
